@@ -1,8 +1,12 @@
 package dev.zymixon.e_commerce.models.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity(name = "user")
+@Getter
+@Setter
 public class UserEntity {
 
     @Id
