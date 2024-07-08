@@ -2,7 +2,6 @@ package dev.zymixon.e_commerce.services;
 
 import dev.zymixon.e_commerce.exceptions.UserNotFoundException;
 import dev.zymixon.e_commerce.models.entities.UserEntity;
-
 import java.util.List;
 
 public interface UserService {
